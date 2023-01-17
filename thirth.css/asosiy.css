@@ -1,0 +1,131 @@
+body {
+  background: #f4f8fa;
+}
+.flex-box {
+  width: 500px;
+  height: 650px;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+    0px 4px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 80px;
+  margin-top: 40px;
+}
+.logo h1 {
+  margin-top: 25px;
+  font-family: "Segoe UI";
+  font-style: normal;
+}
+.log-in {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.log-in p {
+  margin-right: 20px;
+}
+.log-in a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  margin-top: -4px;
+  color: #01bab3;
+}
+.forms {
+  margin-top: 80px;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.inputs input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 15px;
+  width: 85%;
+}
+.inputs input:hover {
+  border: 3px solid #01bab3;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.label {
+  display: flex;
+  justify-content: center;
+}
+.label label {
+  margin-right: 325px;
+}
+.label2 {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.inputs-2 {
+  display: flex;
+  margin-top: 10px;
+}
+.inputs-2 {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding: 15px;
+  width: 85%;
+}
+.label2 img {
+  width: 15px;
+}
+
+.inputs-2:hover {
+  border: 3px solid #01bab3;
+}
+.inputs-2 i {
+  margin-left: 180px;
+}
+.btn2 {
+  text-align: center;
+  margin-top: 70px;
+}
+.btn2 button {
+  padding: 10px 150px;
+  background-color: #01bab3;
+  color: white;
+  border-radius: 5px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.btn2 button:hover {
+  background-color: #ffffff;
+  color: #01bab3;
+}
+.qoldan-kegancha {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.qoldan-kegancha p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}

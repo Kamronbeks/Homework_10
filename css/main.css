@@ -1,0 +1,145 @@
+body {
+  background: #f4f8fa;
+}
+.flex-box {
+  width: 500px;
+  height: 950px;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+    0px 4px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  width: 80px;
+  margin-top: 40px;
+}
+.logo h1 {
+  margin-top: 25px;
+  font-family: "Segoe UI";
+  font-style: normal;
+}
+.log-in {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.log-in p {
+  margin-right: 20px;
+}
+.log-in a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  margin-top: -4px;
+  color: #01bab3;
+}
+.forms {
+  margin-top: 80px;
+}
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.inputs input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-left: 10px;
+  padding: 15px;
+}
+.inputs input:hover {
+  border: 3px solid #01bab3;
+}
+input:focus {
+  outline: none;
+}
+label {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+}
+.label {
+  display: flex;
+  justify-content: center;
+}
+.label label {
+  margin-left: 20px;
+  margin-right: 100px;
+}
+.date {
+  margin: 45px;
+}
+.date-2 {
+  margin-bottom: 15px;
+}
+.date input {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding-right: 210px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.date input:hover {
+  border: 3px solid #01bab3;
+}
+[type="date"],
+[type="email"] {
+  width: 103%;
+}
+[type="date"] img {
+  margin-left: 200px;
+}
+.Jins {
+  margin: -15px 50px;
+}
+.Jinsi label {
+  display: block;
+}
+.Jins button {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  width: 300px;
+  height: 50px;
+}
+.Gendr {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.Gendr button {
+  margin-left: 9px;
+}
+button:hover {
+  border: 3px solid #01bab3;
+}
+.btn2 {
+  text-align: center;
+}
+.btn2 button {
+  padding: 10px 150px;
+  background-color: #01bab3;
+  color: white;
+  border-radius: 5px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  transition: 0.3s;
+}
+.btn2 button:hover {
+  background-color: #ffffff;
+  color: #01bab3;
+}

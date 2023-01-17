@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.conteiner {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+button:hover {
+  border: 3px solid #01bab3;
+}
+span {
+    color: #01bab3;
+}

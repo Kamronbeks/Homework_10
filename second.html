@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="icon" href="./images/by.png" />
+    <link rel="stylesheet" href="./css/first.css">
+    <link rel="stylesheet" href="./second css/common.css" />
+    <link rel="stylesheet" href="./second css/header.css" />
+    <link rel="stylesheet" href="./second css/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="lists">
+        <div class="conteiner servic">
+          <div class="by">
+            <img src="./images/by2.png" alt="" />
+          </div>
+          <div class="list">
+            <ul class="ul">
+              <li>
+                <a href="#">Services</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Contacts</a>
+              </li>
+              <li>
+                <a href="./thirth.html"><button class="btn">Log in</button> </a>
+              </li>
+              <li>
+                <a href="./second.html"
+                  ><button class="btn">Open an account</button>
+                </a>
+              </li>
+              <li>
+                <a href="#"> <button class="btn">EN</button> </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="main">
+        <div class="conteiner flex-box">
+          <div class="start">
+            <div class="logo">
+              <img src="./images/by2.png" alt="" />
+              <h1>Welcome to ByTrend!</h1>
+            </div>
+            <div class="log-in">
+              <p>Already have an account?</p>
+              <a href="./thirth.html">Log in</a>
+            </div>
+            <div class="form">
+              <form action="./thirth.html" autocomplete="off">
+                <div class="forms">
+                  <div class="label">
+                    <label for="Email">Email
+                      <span>*</span>
+                    </label>
+                  </div>
+                  <div class="inputs">
+                    <br />
+                    <input
+                      required
+                      type="text"
+                      id="Email"
+                      name="Email"
+                      placeholder="Email address"
+                    />
+                  </div>
+                </div>  
+                <div class="phone">
+                  <label for="phone">Phone
+                    <span>*</span>
+                  </label>
+                </div>
+                <div class="call">
+                  <button>+7</button>
+                  <input type="namber" id="phone" required placeholder="777-77-07">
+                </div>
+                <div class="country-city">
+                <label for="region">Country
+                  <span>*</span>
+                </label>
+                <label for="city">City
+                  <span>*</span>
+                </label>
+                <div class="region">
+                  <select name="regin" id="region">
+                    <option value="Uzb">UZBEKISTAN</option>
+                    <option value="Rus">RUSSIA</option>
+                    <option value="Usa">USA</option>
+                    <option value="Kaz">KAZAKSTAN</option>
+                    <option value="Ger">GERMANY</option>
+                  </select>
+                  <input required type="text" id="city" placeholder="Name of the city">
+                </div>
+                <div class="form-s">
+                  <div class="label-s">
+                    <label for="password">Password
+                      <span>*</span>
+                    </label>
+                  </div>
+                  <div class="input-s">
+                    <br />
+                    <input
+                      required
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder="**********"
+                    />
+                    <div class="i">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                  </div>
+                  </div>
+                </div>
+                <div class="form-s">
+                  <div class="label-ss">
+                    <label for="password">Confirm password
+                      <span>*</span>
+                    </label>
+                  </div>
+                  <div class="input-s">
+                    <br />
+                    <input
+                      required
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder=". . . . . . . . "
+                    />
+                    <div class="i">
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                  </div>
+                  </div>
+                </div>
+                <div class="btn2">
+                  <a href="./thirth.html">
+                    <button class="btr">Register</button>
+                  </a>
+                </div>
+                <div class="footer">
+                  <p>By signing up, you are agreeing to our
+                    <span>Terms & Conditions
+                      and Privacy Policy.</span>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
